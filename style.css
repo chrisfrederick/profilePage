@@ -1,0 +1,302 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+#container{
+    justify-content: center;
+    background-color: aliceblue;
+    /* width: 1080px; */
+    /* height: 720px; */
+    display: flex;
+    
+}
+
+#content{
+    display: flex;
+    margin:auto;
+    width: 85%;
+    
+    height: 700px;
+    
+}
+
+
+#navBar{
+    display: flex;
+    background-color: black;
+    height: 100px;
+    
+    
+}
+
+#innerNav{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+
+#leftNav{
+    display: flex;
+    color: white;
+}
+
+#leftNav h1{
+    margin-right: 20px;
+}
+
+#rightNav{
+    justify-content:right;
+    align-content: center;
+    margin:auto;
+}
+
+button{
+    align-content: center;
+    color: white;
+    background-color: turquoise;
+    border-style: none;
+    height: 40px;
+    width: 80px;
+    
+}
+
+#leftNav ul{
+    display: flex;
+    margin: auto;
+}
+
+li{
+    list-style-type: none;
+    margin-right: 30px;    
+}
+
+
+
+
+#leftColumn{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex: 2;
+    padding: 40px;
+    margin-right: 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+#rightColumn{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex: 1;
+    padding: 40px;
+    margin-top: 10px;
+}
+
+#topBox{
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: column;
+    border: 5px solid grey;
+
+    background-color: white;
+    flex:2;
+    
+    margin-bottom: 20px;
+}
+
+#bottomBox{
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    flex: 1;
+    border: 5px solid grey;
+
+}
+
+#topBar2{
+    height: 50px;
+    background-color: black;
+    color: white;
+    
+}
+
+#header{
+    justify-content: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#bottomBar2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#topbar{
+    height: 100px;
+    background-color:cornflowerblue;
+}
+
+
+
+#topBox2{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid grey;
+    background-color: white;
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+
+
+.requestInfo{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+
+
+#bottomBar{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 30px;
+    
+}
+
+#bottomBar3{
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 10px;
+    border: 5px solid black;
+    padding: 2px;
+    position: relative;
+    bottom: 60px;
+}
+
+.infoPic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+
+.icon{
+    height: 20px;
+    margin-right: 10px;
+    
+    
+}
+
+#profile{
+    display: flex;
+    margin-top: 10px;
+}
+
+#map{
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+p{font-size: 15pt;}
+
+#description p{
+    margin: 10px;
+}
+
+#bottomBar h1{
+    margin-bottom: 10px;
+}
+
+h4{
+    color: grey;
+}
+
+#header2{
+    display: flex;
+    vertical-align: middle;
+}
+
+#numberButton{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: 10px;
+    background-color: gray;
+    color: black;
+}
+#numberButton2{
+    border-radius: 50%;
+    width: 50px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: 10px;
+    background-color: gray;
+    color: black;
+}
+
+.request{
+    margin-top: 6px;
+}
+
+#bottomBox2{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    flex: 2;
+    border: 5px solid grey;
+    justify-content: space-between;
+}
+
+#topBar3{
+    
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#middleBar{
+    display: flex;
+    flex-direction: column;
+    
+}
+#bottomBar4{
+    justify-content: center;
+    height: 20%;
+    border-top: 5px solid grey;
+    
+}
+
+#viewMore{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.connectionId{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
